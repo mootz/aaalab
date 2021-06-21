@@ -11,6 +11,7 @@ export default {
 <style scoped lang="stylus">
 @import "../../assets/css/system/_default.styl"
 
-  .extreme
-    color: $link-color
+.extreme
+  color: $link-color
+
 </style>

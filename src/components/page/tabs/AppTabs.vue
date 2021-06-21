@@ -76,4 +76,5 @@ export default {
     left: 0
     font-weight: bold
     opacity: 0
+    margin-bottom: -24px
 </style>

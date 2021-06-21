@@ -1,5 +1,5 @@
 <template lang="pug">
-  .section
+  .section.home
     AppTabs(:tabs="this.tabs")
 
     transition(name="tabs-fade")
@@ -28,5 +28,8 @@ export default {
 </script>
 
 <style lang="stylus">
+
+.home
+  min-height: 60vh
 
 </style>

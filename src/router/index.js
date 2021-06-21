@@ -27,11 +27,6 @@ const routes = [
         component: () => import('../components/home/Home_extreme')
       }
     ]
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
   }
 ]
 

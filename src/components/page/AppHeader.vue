@@ -3,7 +3,7 @@
     .section
       a(href="/").header-logo
         .header-logo__img
-          img(src="/img/logo.png")
+          img(src="/img/logo-header.png")
         .header-logo__name
           p.header-logo__main-text adventure
           p.header-logo__sub-text сделай красиво, чтобы было красиво
@@ -17,6 +17,7 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/system/_vars.styl"
+
 .header
   background: $accent
   padding: 12px 0

@@ -11,7 +11,7 @@ export default new Vuex.Store({
   },
   actions: {
     closeAllPopups ({ commit }) {
-      // all commits for close popups
+      commit('[home] CLOSE_TILES_MODAL')
     }
   },
   modules

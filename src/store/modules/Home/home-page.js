@@ -8,9 +8,12 @@ const initialState = () => {
         list: [],
         video: {
           preview: null,
-          link: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
+          src: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
         },
-        img: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        img: {
+          name: 'Cat',
+          src: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        }
       },
       {
         id: 2,
@@ -19,9 +22,12 @@ const initialState = () => {
         list: [],
         video: {
           preview: null,
-          link: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
+          src: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
         },
-        img: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        img: {
+          name: 'Cat',
+          src: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        }
       },
       {
         id: 5,
@@ -36,9 +42,12 @@ const initialState = () => {
         list: [],
         video: {
           preview: null,
-          link: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
+          src: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
         },
-        img: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        img: {
+          name: 'Cat',
+          src: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        }
       },
       {
         id: 4,
@@ -47,9 +56,12 @@ const initialState = () => {
         list: [],
         video: {
           preview: null,
-          link: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
+          src: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
         },
-        img: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        img: {
+          name: 'Cat',
+          src: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        }
       },
       {
         id: 6,
@@ -58,9 +70,12 @@ const initialState = () => {
         list: [],
         video: {
           preview: null,
-          link: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
+          src: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
         },
-        img: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        img: {
+          name: 'Cat',
+          src: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        }
       },
       {
         id: 7,
@@ -69,28 +84,77 @@ const initialState = () => {
         list: [],
         video: {
           preview: null,
-          link: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
+          src: 'https://www.youtube.com/embed/kUfX5ob_ZjY'
         },
-        img: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        img: {
+          name: 'Cat',
+          src: 'https://www.cnet.com/a/img/zKiT35AfPlfRJvlHty6p4zmpCrw=/940x0/2020/05/01/7f0a951f-d9a2-4847-b962-b254b63842a2/img-4960.jpg'
+        }
       },
       {
         id: 8,
         name: 'Germany',
         mainImg: './img/placeholders-tiles/photo-8.jpg',
         list: []
+      },
+      {
+        id: 9,
+        name: 'Japan',
+        mainImg: './img/placeholders-tiles/photo-9.jpg',
+        list: []
+      },
+      {
+        id: 10,
+        name: 'Australia',
+        mainImg: './img/placeholders-tiles/photo-10.jpg',
+        list: []
+      },
+      {
+        id: 11,
+        name: 'India',
+        mainImg: './img/placeholders-tiles/photo-11.jpg',
+        list: []
+      },
+      {
+        id: 12,
+        name: 'Finland',
+        mainImg: './img/placeholders-tiles/photo-12.jpg',
+        list: []
+      },
+      {
+        id: 13,
+        name: 'New Zealand',
+        mainImg: './img/placeholders-tiles/photo-13.jpg',
+        list: []
       }
-    ]
+    ],
+    modalTiles: {
+      isActive: false,
+      content: {
+        type: null,
+        src: null
+      }
+    }
   }
 }
 
 const state = initialState()
 
 const getters = {
-  '[home] getHomeTiles': state => state.tiles
+  '[home] getHomeTiles': state => state.tiles,
+  '[home] getHomeModal': state => state.modalTiles
 }
 
 const mutations = {
-
+  '[home] CLOSE_TILES_MODAL': (state) => {
+    state.modalTiles.isActive = false
+  },
+  '[home] OPEN_TILES_MODAL': (state, content) => {
+    const modalTiles = state.modalTiles
+    modalTiles.isActive = true
+    modalTiles.content.type = content.type
+    modalTiles.content.src = content.src
+  }
 }
 
 const actions = {}
